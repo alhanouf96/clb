@@ -67,7 +67,7 @@ overflow-x: hidden;
 
 h3{
 
-color: #121212;
+color: #361611;
    font-weight: bold;
    font-size: 16px;
    font-display: swap;
@@ -87,7 +87,7 @@ font-size: 12px;
 
 .det{
 
-color: #121212;
+color: #361611;
 font-size: 10px;
   padding: 5px;
 font-family:El Messiri;
@@ -98,7 +98,7 @@ font-family:El Messiri;
 .alignleft {
   float: left;
 
-   color:#2d2a26;
+   color:#361611;
    white-space: nowrap;
 
   padding-left: 85px;
@@ -106,14 +106,14 @@ font-family:El Messiri;
 }
 .alignright {
  float: right;
-    color:#2d2a26;
+    color:#361611;
 
   padding-right: 85px;
 }
 
 .aligncenter {
  float: center;
-    color:#2d2a26;
+    color:#361611;
 
   padding-right: 85px;
 }
