@@ -215,6 +215,18 @@ localStorage.setItem("storageName",val);
 window.location.href = "deet.html";
  break;
 
+case "s31":
+var val = "ss31"
+localStorage.setItem("storageName",val);
+window.location.href = "deet.html";
+ break;
+    
+case "s32":
+var val = "ss32"
+localStorage.setItem("storageName",val);
+window.location.href = "deet.html";
+ break;
+    
 case "s4":
 var val = "ss4"
 localStorage.setItem("storageName",val);
