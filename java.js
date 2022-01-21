@@ -263,7 +263,13 @@ var val = "supp2"
 localStorage.setItem("storageName",val);
 window.location.href = "deet.html";
  break;
-
+    
+case "sup3":
+var val = "supp3"
+localStorage.setItem("storageName",val);
+window.location.href = "deet.html";
+ break;
+    
  case "slt1":
 var val = "sltt1"
 localStorage.setItem("storageName",val);
