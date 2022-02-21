@@ -1,0 +1,457 @@
+body {
+ font-family:El Messiri;
+  font-display: swap;
+  background: #fefefe;
+
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+
+
+
+h5{
+
+  color: #743d3d;
+  text-align:right;
+   
+   padding-top: 1px;
+
+   font-size: 13px;
+
+   font-display: swap;
+   font-family:El Messiri;
+}
+
+
+
+p{
+text-align:right;
+font-size: 12px;
+
+}
+
+img { 
+  width: 100%; 
+border-bottom-left-radius:4px;
+border-bottom-right-radius:4px;
+}
+
+
+.header1{
+   opacity:10;
+
+}
+
+
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  color: black;
+  border-radius: 10px;
+
+}
+
+.container{
+
+
+  padding: 7px;
+}
+
+
+
+.nav {
+  overflow: hidden;
+
+  width: 100%;
+
+   /*float: center;*/
+  background: #fefefe;
+
+
+border-radius: 0;
+border-bottom-right-radius: 4px;
+border-bottom-left-radius: 4px;
+
+ margin: 0 auto;
+
+}
+
+.nav a {
+
+  color: #fefefe;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  font-weight: bold;
+  font-family:El Messiri;
+  padding: 0px;
+  padding-left:1px;
+  padding-right: 1px;
+  font-size: 10px;
+
+
+}
+
+
+
+
+/*-- 
+.nav a:hover {
+  background: #d2612a; /*-- orange 
+  color: black;
+} */
+
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #white;
+    background-color: #743d3d;
+
+    border-radius: 16px;
+}
+
+.nav-pills .nav-link:not(.active) {
+       color: #white;
+
+
+ 
+   background:#743d3d;
+   opacity: 0.6;
+    border-radius: 16px;
+
+}
+
+
+/*-- scroll nav pills */
+
+.singledowre {
+    background-color: transparent;
+    min-height: 100%;
+    padding: 40px 14px;
+
+ 
+}
+
+.singledowrediv {
+    display: table;
+    margin: 0 auto;
+    max-width: 950px;
+}
+
+.singleinfos {
+    background: #fefefe;
+
+    border-radius: 8px;
+  
+}
+.container-fluid {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+.singleinfos .singleinfostabs {
+
+  width: 100%;
+
+}
+.singleinfos .singleinfostabs > ul {
+     overflow-x: auto;
+   overflow-y:hidden;
+   flex-wrap: nowrap;
+     padding-right: 0px;  /*space at the right of bar*/
+
+   
+}
+.singleinfos .singleinfostabs > ul > li {
+   /* background: white;  color of pills */
+  /*  background:#3f3534; color of pills */
+   border-radius: 16px;
+
+    padding-right: 4px;
+       margin: 0 auto;
+       padding-top: 5px;  /*space at the top of bar*/
+}
+.singleinfos .singleinfostabs .nav-pills > li > a {
+    font-size: 10px;
+
+    border-radius: 18px;
+
+    padding: 4px 10px;
+    text-align: center;
+   /* background: transparent;
+   /* color:#3f3534 !important;   /*color of pills */
+  white-space: nowrap !important;
+padding-bottom: 4px;
+padding-top: 4px;
+padding-left: 0;
+
+}
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+    display: none;
+
+
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+
+
+ 
+}
+
+
+
+.icon {
+  position: relative;
+  /* Adjust these values accordingly */
+     display: inline-flex;
+    vertical-align: middle;
+
+}
+
+/* price & kcal*/
+
+
+.alignleft {
+  float: left;
+
+  color:#743d3d;
+   white-space: nowrap;
+
+
+}
+.alignright {
+  float: right;
+
+  color:#743d3d;
+}
+
+.right{
+   float: right;
+   font-size: 12px;
+   padding-left: 4px;
+   padding-top:  1.5px;
+    color:#743d3d;
+}
+
+.icons{
+ color:#743d3d;
+float: left;
+
+
+}
+
+
+
+.card{
+border: none;
+
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+background: #fefefe;
+
+} 
+
+
+.img-fluid {
+  border-radius: 4px;
+
+
+border-bottom-left-radius: 0px;
+border-top-left-radius: 0px;
+}
+
+
+.no-underline:hover {
+    text-decoration: none;
+}
+
+
+/* reszie  img*/
+.scal2{
+
+width: 100px;
+
+
+
+}
+
+.scal3{
+
+width: 120px;
+
+
+
+}
+
+.scal4{
+
+width:200px;
+
+}
+
+.footer {
+  font-size: 10px;
+  text-align:center;
+ padding: 1px;
+color:#743d3d;
+
+
+}
+
+
+
+
+
+/*Styles for popup view*/
+
+.product .popup-view{
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.5);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+
+.product .popup-view.active{
+  opacity: 1;
+  visibility: visible;
+}
+
+.product .popup-card{
+  position: relative;
+  display: flex;
+  width: 800px;
+  height: 500px;
+  margin: 20px;
+}
+
+.product .popup-card .product-img{
+  z-index: 2;
+  background: #1D212B;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 90%;
+  transform: translateY(25px);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.product .popup-card .product-img img{
+  z-index: 2;
+  position: relative;
+  width: 450px;
+  left: -50px;
+}
+
+.product .popup-card .info{
+  z-index: 2;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+
+.product .popup-card .info h2{
+  font-size: 40px;
+  line-height: 20px;
+  margin: 10px;
+}
+
+.product .popup-card .info h2 span{
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.product .popup-card .info p{
+  font-size: 15px;
+  margin: 10px;
+}
+
+.product .popup-card .info .price{
+  font-size: 45px;
+  font-weight: 300;
+  margin: 10px;
+}
+
+/*Responsive styles*/
+
+@media (max-width: 900px){
+  .product .popup-card{
+    flex-direction: column;
+    width: 550px;
+    height: auto;
+  }
+
+  .product .popup-card .product-img{
+    z-index: 3;
+    width: 100%;
+    height: 200px;
+    transform: translateY(0);
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .product .popup-card .product-img img{
+    left: initial;
+    max-width: 100%;
+  }
+
+  .product .popup-card .info{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .product .popup-card .info h2{
+    margin: 20px 5px 5px 5px;
+    font-size: 18px;
+  color:#1C3323;
+  }
+
+
+  .product .popup-card .info p{
+    margin: 5px;
+    font-size: 13px;
+    color:#1C3323;
+  }
+
+  .product .popup-card .info .price{
+    margin: 5px;
+    font-size: 18px;
+    color:#933B24;
+  }
+
+  .product .popup-card .close-btn{
+    z-index: 4;
+  }
+}
